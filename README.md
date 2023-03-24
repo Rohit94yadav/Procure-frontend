@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://lively-baklava-43c53f.netlify.app/"></a>
+## Technologies Used
 
-## Available Scripts
+#### Tech Stack-
 
-In the project directory, you can run:
+<p float="left">
+   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/ribhar/ribhar/blob/main/giticons/icons8-mongodb.svg" alt="mongodb" width="40" height="40"/> </a>
+   <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://github.com/ribhar/ribhar/blob/main/giticons/express.png" alt="express" width="40" height="40"/> </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/ribhar/ribhar/blob/main/giticons/icons8-react-native.svg" alt="react" width="40" height="40"/> </a> 
+   <a href="https://redux.js.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/ribhar/ribhar/blob/main/giticons/icons8-redux.svg" alt="redux" width="40" height="40"/> 
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://github.com/ribhar/ribhar/blob/main/giticons/icons8-node-js.svg" alt="nodejs" width="40" height="40"/> </a>
+   <a href="https://mongoosejs.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/ribhar/ribhar/blob/main/giticons/mongoose.png" alt="mongoose" width="60" height="30"/> 
+   </a>
+    
+ 
+</p>
+ 
+ ### <u>Deployed Link</u>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Deployed with netlify app 
+```
+https://lively-baklava-43c53f.netlify.app/
+ ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### <u>Run Locally</u>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install npm packages
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run the server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+View in Browser
 
-### `npm run eject`
+```
+go to http://localhost:3000
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Functionalities of the website
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. A user can register his account on the website.
+2. User can log in using their email and password.
+3. JWT verification.
+4. User can Logout.
+5. User can add Product.
+6. User can delete Product. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Snippets
+<p>
+   
+    <img src="https://i.ibb.co/vZPVmZK/2023-03-24-09-44-57.png" alt="2023-03-24-09-44-57" border="0">
+<img src="https://i.ibb.co/K2HfLL5/2023-03-24-09-45-07.png" alt="2023-03-24-09-45-07" border="0">
+<img src="https://i.ibb.co/WPYjjrC/2023-03-24-09-45-15.png" alt="2023-03-24-09-45-15" border="0">
+<img src="https://i.ibb.co/4dxzXk8/2023-03-24-09-45-21.png" alt="2023-03-24-09-45-21" border="0">
+   </p>
+ 
+ Click the link to view project: 
+ <a href="https://lively-baklava-43c53f.netlify.app/">Assignment for Pococare</a>
+  
+## Lessons Learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+As we never really stop learning, This was our 1st full-stack project, and as usual there were a lot of chalenges with the learnings we experienced. some of the highlighted learning were:-
+- Building Database using mongodb and deployment using Mongo Atlas
+- Setting up API requests using Express and Deployment on cyclic
+- Algorithm building for users data such as, items in cart, location etc.
+- Playing with animation to get desired output
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributors
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [@Rohit Yadav](https://github.com/Rohit94yadav)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
